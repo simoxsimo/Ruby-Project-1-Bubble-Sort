@@ -19,8 +19,6 @@
 ## Dev Environment Requirement:
 Ruby needs to be installed to run the code check [here](https://www.ruby-lang.org/en/documentation/installation/) for further steps
 
-
-#%w[hi hello hey]
 ## ⭐️ Running the code
 ```
 Add these two lines to test both of the methods or make your own:
