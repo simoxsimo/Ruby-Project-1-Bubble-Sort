@@ -19,8 +19,14 @@
 ## Dev Environment Requirement:
 Ruby needs to be installed to run the code check [here](https://www.ruby-lang.org/en/documentation/installation/) for further steps
 
+
+#%w[hi hello hey]
 ## ⭐️ Running the code
 ```
+Add these two lines to test both of the methods or make your own:
+> print bubble_sort([7, 6, 5, 4, 3, 2, 1])
+> print bubble_sort_by(['hi', 'hello', 'hey']){ |left, right| left.length - right.length }
+
 Inside The project Repository run the following command in the "Command line":
 > ruby bubble_sort.rb
 ```
