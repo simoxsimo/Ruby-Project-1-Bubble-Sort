@@ -7,5 +7,15 @@ def bubble_sort(array)
 	array
 end
 
-arr = [9, 8, 7, 6, 5, 4, 3, 2, 1]
-print bubble_sort(arr)
+def bubble_sort_by (array)
+	for j in (0..array.size-1)
+		for i in (0..array.size-2)
+			if yield(array[i],array[i+1])>=1
+				array[i],array[i+1] = array[i+1],array[i]
+			end
+		end
+	end
+	array
+end
+
+print bubble_sort_by(["hi","hello","hey","only","meat","i","dflkasdjfl"]){|left,right| left.length - right.length}
