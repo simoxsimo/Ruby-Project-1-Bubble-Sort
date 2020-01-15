@@ -21,8 +21,8 @@ Ruby needs to be installed to run the code check [here](https://www.ruby-lang.or
 
 ## ⭐️ Running the code
 ```
-Inside The project Repository run:
-> <em>ruby bubble_sort.rb</em>
+Inside The project Repository run the following command in the "Command line":
+> ruby bubble_sort.rb
 ```
 
 ## Author
